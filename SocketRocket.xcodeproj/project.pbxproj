@@ -964,6 +964,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F6B208221450F597009315AF;
@@ -1173,6 +1174,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D647591D2CA6A100690609 /* SocketRocket-iOS-Dynamic.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				MTL_ENABLE_DEBUG_INFO = YES;
 			};
 			name = Debug;
@@ -1181,6 +1183,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D647591D2CA6A100690609 /* SocketRocket-iOS-Dynamic.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				MTL_ENABLE_DEBUG_INFO = NO;
 			};
 			name = Release;
@@ -1189,6 +1192,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475C1D2CA6A100690609 /* SocketRocket-tvOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
@@ -1198,6 +1202,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475C1D2CA6A100690609 /* SocketRocket-tvOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
@@ -1207,6 +1212,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475A1D2CA6A100690609 /* SocketRocket-iOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 			};
 			name = Debug;
 		};
@@ -1214,6 +1220,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475A1D2CA6A100690609 /* SocketRocket-iOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 			};
 			name = Release;
 		};
@@ -1235,6 +1242,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475B1D2CA6A100690609 /* SocketRocket-macOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Debug;
@@ -1243,6 +1251,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475B1D2CA6A100690609 /* SocketRocket-macOS.xcconfig */;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Release;
